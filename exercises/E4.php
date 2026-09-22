@@ -22,14 +22,16 @@ use App\CronometroTreino;
 
 $cronometro = new CronometroTreino("Correr igual o david Goggigns", 0);  
 
-echo $cronometro->formatarTempo() . PHP_EOL;
 
 $cronometro->adicionarTempo(10);
 $cronometro->adicionarTempo(40);
 $cronometro->adicionarTempo(600);
 
-
 echo $cronometro->formatarTempo() . PHP_EOL;
+
+$cronometro->zerar();
+
+echo "Após zerar: " . $cronometro->formatarTempo() . PHP_EOL;
 
 
 ?>
