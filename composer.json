@@ -1,0 +1,12 @@
+{
+    "name": "souza/unimar-treinamento-prova-php",
+    "description": "Exercicios feitos para treinar para a prova de PHP do dia 28/09",
+    "require": {
+        "php": "^8.4"
+    },
+    "autoload": {
+        "psr-4": { 
+            "App\\": "src/"
+        }
+    }
+}
