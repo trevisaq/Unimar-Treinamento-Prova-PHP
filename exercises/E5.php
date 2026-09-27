@@ -23,8 +23,13 @@
 require_once '../vendor/autoload.php';
 
 use App\Triangulo;
+$T1 = new Triangulo(20, 20, 20); 
+$T2 = new Triangulo(25, 21, 20); 
+// $T3 = new Triangulo(50, 20, 20); 
 
-$T1 = new Triangulo(45, 20, 20);  
-echo $T1-> Classificar() . PHP_EOL;
+echo 'O Triangulo 1:' . ' ' . $T1->Classificar() . PHP_EOL;
+echo 'O Triangulo 2:' . ' ' . $T2->Classificar() . PHP_EOL;
+// echo 'O Triangulo 3:' . ' ' . $T3->Classificar() . PHP_EOL;
+
 
 ?>
