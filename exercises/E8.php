@@ -25,6 +25,18 @@
 require_once '../vendor/autoload.php';
 
 use App\LampadaInteligente;
-$L1 = new LampadaInteligente("Sala", true, 12);
+$L1 = new LampadaInteligente("Sala", false, 50);
+$L2 = new LampadaInteligente("Cozinha", true, 50);
+
+echo $L1->ajustarIntensidade(96);
+echo $L1->ligar();
+echo $L1->status();
+
+echo "\n\n";
+
+echo $L2->ajustarIntensidade(20);
+echo $L2->desligar();
+echo $L2->status();
+
 
 ?>
