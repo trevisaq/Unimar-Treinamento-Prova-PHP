@@ -1,5 +1,7 @@
 <?php 
 
+// ALUNO: Guilherme de Souza Trevisan | RA: 2199249
+
 // Exercício 5 - Triângulo e suas regras   [Fixação]
 
 // Classe: Triangulo

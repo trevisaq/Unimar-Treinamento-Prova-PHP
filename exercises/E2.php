@@ -1,5 +1,7 @@
 <?php 
 
+// ALUNO: Guilherme de Souza Trevisan | RA: 2199249
+
 // Exercício 2 - Temperatura controlada [Fixação]
 
 // Classe: Temperatura
